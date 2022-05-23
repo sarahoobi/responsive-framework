@@ -1,0 +1,36 @@
+/* ----------global styles----- */
+.border-gray {
+  border: 1px solid gray !important;
+}
+.border-blue {
+  border: 1px solid blue !important;
+}
+
+/* ---------------- */
+@media only screen and (min-width: 576px) {
+  .container {
+    max-width: 576px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .container {
+    max-width: 992px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .container {
+    max-width: 1400px;
+  }
+}
